@@ -23,12 +23,7 @@
             <label for="tel">전화번호</label>
             <input type="tel" id="tel" required value="01000000000"><br>
             
-            <label for="projcount">진행한 프로젝트 수</label>
-            <input type="number" id="projcount" value="0"> 개<br>
-
-            <label for="github">깃허브 주소</label>
-            <input type="url" id="github" value="https://" ><br>
-
+            
         </fieldset>
         <br>
         <fieldset id="select">
@@ -44,18 +39,14 @@
             <label for="birth">생일</label>
             <input type="month" id="birth"><br>
             
-            <label>수시/정시 여부</label>
-            <label for="su">수시</label>
-            <input type="checkbox" id="su">
-            <label for="jug">정시</label>
-            <input type="checkbox" id="jug"><br>
-
-            <label for="suggestion">기타 사항</label><br>
-            <textarea id="suggestion" rows="2"></textarea><br>
-
-            <label for="file">포트폴리오</label>
+            <label>추천인 여부</label>
+            <label for="check"></label>
+            <input type="checkbox" id="check">
+            <input type="text" id="check"><br>
+            
+            <label for="file">프로필 이미지</label>
             <input type="file" id="file"><br>
-            <label for="city">지역구</label>
+            <label for="city">사는 지역</label>
             <select name="city" id="city">
                 <optgroup label="서율시">
                     <option value="강남구">강남구</option>
@@ -63,7 +54,17 @@
                     <option value="강북구">강북구</option>
                     <option value="강서구">강서구</option>
                 </optgroup>
-            </select>
+            </select><br>
+            
+            <label for="insta">인스타그램 주소</label>
+            <input type="url" id="insta" value="https://" ><br>
+            
+            <label for="souvenir">필요한 기념품 수</label>
+            <input type="number" id="souvenir" value="0"> 개<br>
+
+            <label for="suggestion">기타 사항</label><br>
+            <textarea id="suggestion" rows="2"></textarea><br>
+
         </fieldset><br>
 
         <input type="submit">
