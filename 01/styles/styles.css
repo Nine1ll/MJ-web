@@ -8,11 +8,9 @@ table, th, td{
 
 aside{
     float: right;
+    width: 30%;
 }
-aside ul{
-    list-style:none;
-    padding:0;
-}
+
 aside ul li{
     clear:both;
     margin-top:10px;
